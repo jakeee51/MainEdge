@@ -1,0 +1,3 @@
+ID,First_Name,Last_Name,Email,Gender,Department,Salary,Status
+2001,David,Morfe,jakemorfe@gnail.com,Male,Accounting,50001,Fired
+2002,Jonie,Mellow,jmellow@gmail.com,Female,Legal,60000,Fired

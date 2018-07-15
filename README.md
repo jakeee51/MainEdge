@@ -1,3 +1,2 @@
-# Human-Resources-Features-Project
-
-This application will allow you to submit an employee database file and manage it. However the formatting for your employee database has a set criteria. And file must also be in a .csv format. Has preset buttons a human resources employee would have to execute.
+# Database-Manager
+An application that will allow a user to customize and manage virtually any database. Allowing them to set a filter for a certain format, upholding data quality and creating an ease of access for finding information within the data through pattern searches. Add & remove fields, edit field names or positions in your data. Set certain value types for certain fields so that when someone is inserting a new record, the data keeps its integrity. It will also be able to read in whatever data you upload, identify the patterns and types of data and automatically adjust to its fields. (For example if a field header is has "ID" in it and majority in that field have a certain amount of digits, the 'add record' function will recognize and say "Hey, you can only put this amount of digits in for ID!")
