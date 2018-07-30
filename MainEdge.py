@@ -1,3 +1,4 @@
+#-*-coding utf-8-*-
 #Allow format to be customizable.
 #For example, adding in fields, removing fields, editing field names and positions, and type of value within those fields. Also expecting different data patterns and being able to adjust the app to your data frame.
 #Use A/B Testing for Beta.
