@@ -41,7 +41,7 @@ DMB = Menu(MB, tearoff = 0)
 DMB2 = Menu(MB, tearoff = 0, activebackground = "deep sky blue")
 
 #Welcome screen.
-welcome = "\n\n\n\n\n\nWELCOME TO THE HUMAN RESOURCES MANAGER APPLICATION!"
+welcome = "\n\n\n\n\n\nWELCOME TO THE PSEUDO HUMAN RESOURCES MANAGER APPLICATION!"
 A = Label(MainFrame, font = "Helvetica 20 bold", bg = "#0068D0", fg = "gold")
 A.pack()
 photo1 = PhotoImage(file = "nypa4.png")
