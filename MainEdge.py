@@ -1,16 +1,16 @@
-#-*-coding utf-8-*-
-#Allow format to be customizable.
-#For example, adding in fields, removing fields, editing field names and positions, and type of value within those fields. Also expecting different data patterns and being able to adjust the app to your data frame.
-#Use A/B Testing for Beta.
-#Add entry variables for all parameters for Beta.
+# -*- coding: utf-8 -*-
 '''
 Author: David J. Morfe
 Application Name: MainEdge
 Functionality Purpose: Human Resources Manager
 7/25/18
 '''
+#Allow format to be customizable.
+#For example, adding in fields, removing fields, editing field names and positions, and type of value within those fields. Also expecting different data patterns and being able to adjust the app to your data frame.
+#Use A/B Testing for Beta.
+#Add entry variables for all parameters for Beta.
 
-#Imports and array declarations.
+#Imports and container declarations/initializations.
 import time
 import numpy as np
 import pandas as pd
@@ -41,16 +41,16 @@ DMB = Menu(MB, tearoff = 0)
 DMB2 = Menu(MB, tearoff = 0, activebackground = "deep sky blue")
 
 #Welcome screen.
-welcome = "\n\n\n\n\n\nWELCOME TO THE PSEUDO HUMAN RESOURCES MANAGER APPLICATION!"
+welcome = "\n\n\n\n\n\nWELCOME TO THE HUMAN RESOURCES MANAGER APPLICATION!"
 A = Label(MainFrame, font = "Helvetica 20 bold", bg = "#0068D0", fg = "gold")
 A.pack()
-photo1 = PhotoImage(file = "nypa4.png")
-p1 = Label(MainFrame, image = photo1)
+#photo1 = PhotoImage(file = "nypa4.png")
+#p1 = Label(MainFrame, image = photo1)
 for char in welcome:
     A.config(text = A.cget('text') + char)
     A.update()
     time.sleep(.05)
-p1.pack()
+#p1.pack()
 Label(MainFrame, text = "This application will allow you to submit an employee database file and manage it. (NOTE: File must be in .csv format)", bg = "#0068D0", fg = "white", font = "none 15").pack()
 Label(MainFrame, text = "Click START to begin...", bg = "#0068D0", fg = "white", font = "none 15").pack()
 def close_window():
@@ -1410,10 +1410,10 @@ def MenuPage(frm):
         DMB.add_separator()
         DMB.add_command(label = "Exit", command = close_window, activebackground = "red")
 
-        photo2 = PhotoImage(file = "nypa2.png")
+        '''photo2 = PhotoImage(file = "nypa2.png")
         p2 = Label(MenuBar, image = photo2)
         p2.photo2 = photo2
-        p2.pack()
+        p2.pack()'''
 
         FStat.config(text = "Employee File: " + inFile + "\nArchive File: " + outFile)
         FStat.update()
