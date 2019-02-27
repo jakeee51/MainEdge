@@ -2,8 +2,6 @@
     Setup for the MainEdge application.
 
     Employee Database Manager (for Human Resources)
-    Copyright (c) New York Power Authority 2018. All Rights Reserved.
-    Digital Analytics Team - David Morfe <david.morfe@nypa.gov>.
 """
 
 import cx_Freeze
