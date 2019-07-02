@@ -33,7 +33,7 @@ shortcut_table = [
 msi_data = {"Shortcut": shortcut_table}
 bdist_msi_options = {"data": msi_data}
 
-executables = [cx_Freeze.Executable("MainEdge.py", base = base, icon = "C:\\Users\\DaviMabi\\Desktop\\MainEdge App\\nypaLOGO.ico")]
+executables = [cx_Freeze.Executable("MainEdge.py", base = base, icon = "C:\\Users\\DaviMabi\\Desktop\\MainEdge App\\LOGO.ico")]
 
 os.environ['TCL_LIBRARY'] = r'C:\\Program Files\\Python36\\tcl\\tcl8.6'
 os.environ['TK_LIBRARY'] = r'C:\\Program Files\\Python36\\tcl\\tk8.6'
