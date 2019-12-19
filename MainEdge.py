@@ -12,7 +12,7 @@ Functionality Purpose: Human Resources Manager
 
 #Imports and container declarations/initializations.
 import time
-import numpy as np
+##import numpy as np
 import pandas as pd
 import matplotlib
 matplotlib.use("TkAgg")
@@ -44,8 +44,8 @@ DMB2 = Menu(MB, tearoff = 0, activebackground = "deep sky blue")
 welcome = "\n\n\n\n\n\nWELCOME TO THE HUMAN RESOURCES MANAGER APPLICATION!"
 A = Label(MainFrame, font = "Helvetica 20 bold", bg = "#0068D0", fg = "gold")
 A.pack()
-#photo1 = PhotoImage(file = "image.png")
-#p1 = Label(MainFrame, image = photo1)
+photo1 = PhotoImage(file = "nypa4.png")
+p1 = Label(MainFrame, image = photo1)
 for char in welcome:
     A.config(text = A.cget('text') + char)
     A.update()
@@ -1410,10 +1410,10 @@ def MenuPage(frm):
         DMB.add_separator()
         DMB.add_command(label = "Exit", command = close_window, activebackground = "red")
 
-        '''photo2 = PhotoImage(file = "image.png")
+        photo2 = PhotoImage(file = "nypa2.png")
         p2 = Label(MenuBar, image = photo2)
         p2.photo2 = photo2
-        p2.pack()'''
+        p2.pack()
 
         FStat.config(text = "Employee File: " + inFile + "\nArchive File: " + outFile)
         FStat.update()
